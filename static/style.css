@@ -1,0 +1,172 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    margin: 0;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.rounded {
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 12.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Modern Button Style */
+button,
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease,
+        box-shadow 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Question Styles */
+.question {
+    margin-bottom: 10px;
+}
+
+/* View Page Styles */
+#questionSection {
+    margin-top: 20px;
+}
+
+#newQuestionButton {
+    margin-bottom: 30px;
+}
+
+/* Center the "Add New Question" Button */
+#questionSection > div {
+    text-align: center;
+}
+
+/* Additional Specificity for Spacing */
+form #formName + br + label[for="discordWebhook"] {
+    margin-top: 20px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+/* Add this style to your CSS file */
+.auth-notice {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff0000; /* Set the color according to your design */
+    /* Add any additional styles as needed */
+}
+
+/* Add this style to your CSS file */
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px; /* Set a specific width for the button */
+    height: 30px; /* Set a specific height for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease,
+        box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+    transform: translateY(-2px);
+}
+/* Add this style to your CSS file */
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-id {
+    flex: 1;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease,
+        box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+    transform: translateY(-2px);
+}
+.form-id {
+    font-size: 12px; /* Adjust the font size as needed */
+}
+.black-text {
+    color: black;
+    font-weight: bold;
+}

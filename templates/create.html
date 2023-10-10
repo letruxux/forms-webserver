@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new Form</title>
+    <link rel="stylesheet" href="static/style.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Create a New Form</h1>
+    </header>
+    <main>
+        <section id="questionSection">
+            <div id="newQuestionsContainer"></div>
+            <div>
+                <button id="newQuestionButton">Add New Question</button>
+            </div>
+        </section>
+        
+
+        <section id="formSection">
+            <form id="form">
+                <label for="formName">Form Name:</label>
+                <input type="text" id="formName" name="formName" required>
+                <br>
+                <label for="discordWebhook">Discord Webhook URL:</label>
+                <input type="text" id="discordWebhook" name="discordWebhook" required>
+                <br>
+                <label for="requiresAuth">Requires authentication?</label>
+                <input type="checkbox" id="requiresAuth" name="requiresAuth">
+                <br>
+                <input type="submit" id="submitButton" value="Create">
+            </form>
+        </section>
+        
+    </main>
+
+    <script src="static/create_script.js" defer></script>
+</body>
+</html>

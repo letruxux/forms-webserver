@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="static/style.css" id="theme-stylesheet">
+</head>
+<body>
+    <form id="formDataForm" style="margin-top: 20px;"> <!-- Form element added with an ID for JavaScript access -->
+        <header class="rounded">
+            <h1 id="formName">formName</h1>
+        </header>
+        <main>
+            <section id="questionSection">
+            </section>
+            <br><br>
+            <button type="submit" id="submitButton">Submit</button> <!-- Submit button inside the form -->
+        </main>
+        <!-- Display authentication notice if the form requires authentication -->
+        <div id="authNotice" class="auth-notice"></div>
+    </form>
+
+    
+    <script src="static/view_script.js" defer form_data="{{form_data}}" user_data="{{user_data}}"></script>
+</body>
+</html>
