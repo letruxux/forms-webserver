@@ -1,5 +1,7 @@
 # forms thing
 
+please don't bully me for this i swear i can do better 😭
+
 ## (bad) features
 * discord auth (too lazy to make a custom system but better security i guess)
 * clientside and serverside checks
