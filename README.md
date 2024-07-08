@@ -1,6 +1,7 @@
 # forms thing
 
 please don't bully me for this i swear i can do better 😭
+this also was before my typescript nextjs react thing ok most of the code is made by chatgpt
 
 ## (bad) features
 * discord auth (too lazy to make a custom system but better security i guess)
