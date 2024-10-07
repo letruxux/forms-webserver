@@ -1,8 +1,8 @@
 # forms thing
 
 # PLEASE DON'T USE THIS
-This project was for learning server / client connections years ago.
-I didn't want to delete it just because it's history yk
+This project was for learning server / client connections years ago.<br>
+I didn't want to delete it just because it's history.<br>
 It may have security vulns and is bad overall. DON'T USE!
 
 ## (bad) features
