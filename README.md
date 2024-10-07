@@ -1,7 +1,9 @@
 # forms thing
 
-please don't bully me for this i swear i can do better 😭
-this also was before my typescript nextjs react thing ok most of the code is made by chatgpt
+# PLEASE DON'T USE THIS
+This project was for learning server / client connections years ago.
+I didn't want to delete it just because it's history yk
+It may have security vulns and is bad overall. DON'T USE!
 
 ## (bad) features
 * discord auth (too lazy to make a custom system but better security i guess)
